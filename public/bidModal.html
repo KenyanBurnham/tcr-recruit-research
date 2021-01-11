@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LifeHire: It's Your Life. Live It.</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
+    <link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/master.css" type="text/css" />
+    <link rel="stylesheet" href="css/bidModal.css" type="text/css" />
+  </head>
+  <body>
+      <header class="navbar ">
+        <div class="container-fluid lh-navbar">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed lh-menu-btn" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar lh-icon-bar"></span>
+              <span class="icon-bar lh-icon-bar"></span>
+              <span class="icon-bar lh-icon-bar"></span>
+            </button>
+              <a class="navbar-brand" href="index.html">
+                <span class="lh-logo">LifeHire</span> <span class="lh-motto">Your Life. <strong>Live it.</strong></span>
+              </a>
+          </div><!-- .navbar-header -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <!-- .navbar-collapse -->
+          </div>
+        </div><!-- .container -->
+      </header>
+
+      <section class="container lh-content">
+        <div class="row">
+          <div class="col-lg-8 bidForm">
+            <div class="form-group">
+              <h2>Bid on: (Job Name)</h2>
+
+              <label class="lead" for="bidWhat"> What:</label><br>
+
+              <span id=""class="glyphicon glyphicon-star input-group-addon"></span>
+              <textarea class="form-control"   id="bidWhat" placeholder="Mention any aspects you'd like to propose a change to. Example: 'I can also do this task on top of that!'" rows="4" cols="50"></textarea><br>
+
+              <label class="lead" for="bidWhen"> When:</label><br>
+
+              <span id=""class="glyphicon glyphicon-time input-group-addon"></span>
+              <textarea class="form-control"   id="bidWhen" placeholder="Schedule not work for you completely? Propose a change! Example: 'I cannot do it on this day, but I could do it then!'" rows="4" cols="50"></textarea><br>
+              <input id="bidWhenTime" class="form-control"   type="text" placeholder="Time of Day"></input><br>
+              <input id="bidEstimatedHours" class="form-control"   type="text" placeholder="Estimated Time to Complete"></input><br>
+
+              <label class="lead" for="bidWhere"> Where:</label><br>
+              <span id=""class="glyphicon glyphicon-map-marker input-group-addon"></span>
+              <textarea class="form-control"   id="bidWhere" placeholder="If a job is not location based you could suggest locations. Example Jobs: Dog groomer, mobile carwasher, eyebrow waxer, hair stylist, consultant, event planner, or photographer. Use this box to name a location and give specific location instructions, provide street address below." rows="6" cols="50"></textarea><br>
+
+              <input id="bidWhereSt" class="form-control"   type="text" placeholder="Street Address"></input><br>
+
+              <input id="bidWhereCity" class="form-control"   type="text" placeholder="City"></input><br>
+
+              <input id= "bidWhereZip" class="form-control"   type="text" placeholder="Zipcode"></input><br>
+
+              <label class="lead" for="bidHowMuch"> How Much:</label><br>
+              <span id=""class="glyphicon glyphicon-usd input-group-addon"></span>
+              <textarea class="form-control"   id="bidHowMuch" placeholder="This is where you can discuss the bid amount if you believe the job is worth more or less to you." rows="4" cols="50"></textarea><br>
+
+              <input type="number" id="bidHowMuchExact" class="form-control"   type="text" placeholder="Exact Amount:"></input><br>
+
+              <div class="form-group">
+                <label class="lead" for="per">Per:</label>
+                <select class="form-control" id="per">
+                  <option>Hour</option>
+                  <option>Job</option>
+                </select>
+              </div>
+
+              <label  class="lead" for="bidAddit"> Additional Comments/Questions:</label><br>
+              <span id=""class="glyphicon glyphicon-comment input-group-addon"></span>
+              <textarea class="form-control"   id="bidAddit" placeholder="If you have a question or comment you would like to go with your bid, maybe relevant information on your skills pertaining to a job you can add them here." rows="4" cols="50"></textarea><br>
+
+              <button type="submit" id="bidSubmit" class="btn btn-info">Submit Bid</button>
+            </div><!--End of form-group-->
+          </div><!--End of class col-->
+        </div><!--End of row-->
+      </section>
+
+      <footer class="container-fluid lh-footer">
+        <p class="lead">&copy; 2015 J&amp;P Innovations // All Rights Reserved</p>
+      </footer>
+
+    <!-- Javascript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="http://www.parsecdn.com/js/parse-1.5.0.min.js"></script>
+    <script src="js/utilities.js"></script>
+    <script src="js/bidModal.js"></script>
+  </body>
+</html>

@@ -1,0 +1,84 @@
+.nameText{
+    display: inline-block;
+    text-align:center;
+    font-size:125%;
+    color:#555555;
+    font-family:"Slabo" 27px, serif;
+}
+
+.needsText{
+    margin-left: 10px;
+}
+
+.titleText{
+    border:solid 0px, 0px, 1px, 0px;
+    border-bottom-style: double;
+    border-color: #17B14B;
+}
+
+.quotesLeft{
+    width:5%;
+    height:5%;
+}
+
+.quotesRight{
+    width:5%;
+    height:5%;
+    -webkit-transform:rotate(180deg);
+    -moz-transform:rotate(180deg);
+    -ms-transform:rotate(180deg);
+    -o-transform:rotate(180deg);
+    transform:rotate(180deg);
+    float:right;
+}
+
+.descriptionText{
+    color:grey;
+    text-align:center;
+    padding:0px, 15px, 0px, 15px;
+}
+
+.descriptionTitle{
+    font-family:"Slabo" 27px, serif;
+    color:#555555;
+}
+
+.descriptionBox{
+    border-radius:5px;
+    display:inline-block;
+}
+
+.pictureBox{
+    border-radius:5px;
+}
+
+.photoFrame{
+    border-radius:2px;
+    height:10em;
+    width:10em;
+    margin:15px;
+    display:inline-block;
+    background-size:cover;
+}
+
+.whenWords{
+    color:grey;
+    text-align:center;
+    padding:0px, 15px, 0px, 15px;
+}
+
+.line{
+    border:solid 0px, 0px, 5px, 0px;
+    border-bottom-style:dotted;
+    border-color:lightgrey;
+}
+
+.bidFormat{
+    border-radius:2px;
+}
+
+.display-inline{
+    color:grey;
+    opacity:0.6;
+    text-align:right;
+}

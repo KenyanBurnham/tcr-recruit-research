@@ -1,0 +1,104 @@
+
+.lh-content {
+  padding: 10px;
+}
+
+.give-space{
+  margin-top: 10px;
+}
+
+.give-space:hover{
+  background-color: #17B14B;
+  background-color: rgba(23, 177, 75, .90);
+  color: white;
+  cursor: pointer;
+}
+
+.lh-custom{
+  margin:5px;
+  float:right;
+  padding:7px;
+}
+
+.badge {
+  background-color: #17B14B;
+  color: white;
+}
+
+.give-space:hover > .badge {
+  background-color: white;
+  color:#17B14B;
+}
+
+.btn-dash {
+  width: 225px;
+}
+
+.nav {
+  border: 0;
+}
+
+.nav-tabs > li > a {
+  color: #17B14B;
+  border-radius: 5px;
+  border: 1px solid #E7E7E7;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  width: 150px;
+}
+
+.nav-tabs > li > a:hover {
+  border: 1px solid #17B14B;
+  border: 1px solid rgba(23, 177, 75, .90);
+  background-color: white;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  color: white;
+  cursor: pointer;
+  background-color: #17B14B;
+  background-color: rgba(23, 177, 75, .90);
+
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.lh-super{
+    background-color: white;
+}
+
+@media (max-width: 755px) {
+
+  .nav-tabs {
+    padding:15px;
+  }
+
+  .nav-tabs > li {
+    width:90%;
+    margin:0 0 10px 0;
+  }
+  .nav-tabs > li > a {
+    width:100%;
+  }
+
+  .post-job {
+    position:relative;
+    margin: auto;
+  }
+
+  .post-btn-container {
+    text-align: center;
+  }
+
+  .btn-dash {
+    width:100%;
+  }
+
+}
+
+/*
+.badge:hover{
+  color:white;
+  font-size: 105%;
+}
+*/

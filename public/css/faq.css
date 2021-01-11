@@ -1,0 +1,29 @@
+.section-right{
+  background-color: green;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+}
+.section-left{
+  background-color: #17B14B;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+}
+.section-top{
+  text-align: center;
+  float: center;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+}
+.give-space{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.space-give{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.give-space:hover{
+  background-color: #d2d2d2;
+}

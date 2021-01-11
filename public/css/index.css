@@ -1,0 +1,109 @@
+
+.lh-info {
+  background-color: #17B14B;
+}
+
+.lh-btn-wrapper {
+  padding: 15px;
+}
+
+.lh-question-form {
+  padding:25px;
+}
+
+.lh-btn-login {
+  font-size: 1.2em;
+}
+
+.btn-login {
+  width:30%;
+}
+
+.modal-header {
+  background-color: white;
+  border:0;
+  border-bottom: 6px solid #17B14B;
+}
+.form-control {
+  border:1px solid #FFFFFF;
+  border-radius: 5px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.modal-content {
+  background-color: white;
+  background-color: rgb(240, 240, 240);
+  background-color: rgba(240, 240, 240, 0.95);
+}
+
+.login-btn-container {
+  display: inline;
+  text-align: left;
+  padding:5px;
+}
+
+.lh-questions {
+  background-color: rgb(240, 240, 240);
+  background-color: rgba(240, 240, 240, 0.95);
+}
+
+.lh-logo {
+  padding:50px;
+}
+
+.fb-signup-btn {
+  padding:0;
+  margin: 15px 0 0 0;
+}
+
+.signup-div {
+  padding:25px 0;
+}
+
+.email-signup-header {
+  margin:0;
+  font-size: 1.85em;
+}
+
+.signup-form {
+  margin:20px 0 0 0;
+  padding:0 5px 0 5px;
+}
+
+.modal-footer {
+  border: 0;
+}
+
+.btn-signup {
+  width:70%;
+  margin:20px 0 0 0;
+}
+
+@media (max-width: 500px) {
+
+  .btn-signup {
+    width:90%;
+  }
+
+  .login-btn-container {
+    display: block;
+  }
+
+  .lh-logo {
+    display: none;
+  }
+
+  .form-control {
+    border:0;
+    box-shadow: none;
+  }
+
+  .btn-login {
+    width:60%;
+  }
+
+  .modal-title {
+    font-size: 0.9em;
+  }
+
+}

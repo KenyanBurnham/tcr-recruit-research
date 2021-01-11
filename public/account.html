@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LifeHire: Manage My Accounts</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
+    <link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/master.css" type="text/css" />
+    <link rel="stylesheet" href="css/account.css">
+  </head>
+  <body>
+      <header class="navbar ">
+        <div class="container-fluid lh-navbar">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed lh-menu-btn" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar lh-icon-bar"></span>
+              <span class="icon-bar lh-icon-bar"></span>
+              <span class="icon-bar lh-icon-bar"></span>
+            </button>
+              <a class="navbar-brand" href="index.html">
+                <span class="lh-logo">LifeHire</span> <span class="lh-motto">Your Life. <strong>Live it.</strong></span>
+              </a>
+          </div><!-- .navbar-header -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            
+          </div>
+        </div><!-- .container -->
+      </header>
+
+      <section class="container lh-content">
+        <h2 class="lh-text sectionHeader">Manage My Accounts</h2>
+
+
+        <article class="row" id="lhAccountRow">
+            <h3 class="lh-text">My LifeHire Account:</h3>
+            <div class="well">
+            <p class="lh-text lh-balance"><span id="lh-balance">$1,523.43</span></p>
+            <button class="btn btn-lifehire btn-accounts">Withdraw Settings</button>
+            <button class="btn btn-lifehire btn-accounts">Account History</button>
+            </div>
+        </article>
+
+
+        <article class="row" id="creditCardRow">
+          <h3 class="lh-text">My Credit Cards:</h3>
+            <form class="form-inline lh-inline ">
+              <div class="form-group">
+                <label class="sr-only" for="creditCardNumberInput">Credit Card Number: </label>
+                <input type="text" class="form-control ccNumberInput"  id="creditCardNumberInput" placeholder="Credit Card Number" />
+              </div>
+              <div class="form-group">
+                <label class="sr-only" for="creditCardExpirationInput">Exp: </label>
+                <input type="text" class="form-control ccExpirationInput" id="creditCardNumberInput" placeholder="Expiration (MM/YYYY)" />
+              </div>
+              <div class="form-group">
+                <label class="sr-only" for="creditCardCVCInput">CVC:</label>
+                <input type="text" class="form-control ccCVCInput" id="creditCardCVCInput" placeholder="CVC" />
+              </div>
+              <button type="submit" class="btn btn-lifehire"><span class="glyphicon glyphicon-plus"></span></button>
+            </form>
+        </article>
+
+
+        <article class="row" id="backAccountRow">
+          <h3 class="lh-text">My Bank Accounts:</h3>
+            <form class="form-inline lh-inline ">
+              <div class="form-group">
+                <label class="sr-only" for="BankAccountRoutingNumberInput">Routing Number: </label>
+                <input type="text" class="form-control ba-routing"  id="bankAccountRoutingNumberInput" placeholder="Bank Routing Number" />
+              </div>
+              <div class="form-group">
+                <label class="sr-only" for="BankAccountNumberInput">Exp: </label>
+                <input type="text" class="form-control ba-number" id="BankAccountNumberInput" placeholder="Bank Account Number" />
+              </div>
+              <button type="submit" class="btn btn-lifehire"><span class="glyphicon glyphicon-plus"></span></button>
+            </form>
+        </article>
+      </section>
+
+      <footer class="container-fluid lh-footer">
+        <p class="lead">&copy; 2015 J&amp;P Innovations // All Rights Reserved</p>
+      </footer>
+
+    <!-- Javascript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="http://www.parsecdn.com/js/parse-1.5.0.min.js"></script>
+    <script src="js/account.js"></script>
+  </body>
+</html>

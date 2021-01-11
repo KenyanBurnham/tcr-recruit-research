@@ -1,0 +1,64 @@
+.i-wanna-center{
+  text-align: center;
+}
+
+.space{
+  float: right;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.active-object{
+  height: 180px;
+  border-bottom: solid;
+  border-left: solid;
+  border-right: solid;
+  border-top: solid;
+  border-color: white;
+  text-indent: 15px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.job-name{
+  width: 150px;
+  white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+}
+
+.the-content{
+  padding-left: 15px;
+}
+
+.danger{
+  background-color: #DA3E52;
+  color:white;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.safe{
+  color:black;
+  background-color: #A9DEF9;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.here{
+  background-color: #17B14B;
+  color:white;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.give-space{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.give-space:hover{
+  background-color: #d2d2d2;
+}

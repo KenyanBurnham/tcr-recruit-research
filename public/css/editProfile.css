@@ -1,0 +1,59 @@
+.invisible {
+  width:0px;
+  height:0px;
+  display:none;
+}
+.photo-frame {
+  width:200px;
+  height:200px;
+  border:2px solid #000000;
+}
+.photo-adder {
+  display:inline-block;
+  background-image: url(../images/plus_sign.png);
+  background-size: 100px 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.photo-adder:hover,
+.photo-adder:focus {
+  background-color: #E6E6E6;
+  cursor: pointer;
+}
+.photo-spinner {
+  display:inline-block;
+  background-image: url(../images/photo_spinner.gif);
+  background-size: 30px 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.photo {
+  display:inline-block;
+  background-size: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.photo-stack {
+  height: 200px;
+  width: 100%;
+  margin: 1%;
+}
+.input-buttons {
+  padding: 2%;
+}
+.cert-form {
+  margin-bottom: 2%;
+}
+.save-group {
+  border: 2px solid #17B14B;
+  margin-bottom:2%;
+}
+.bio {
+  width:50%;
+}
+.cert {
+  margin:0.5%;
+}
+.cert:nth-child(odd) {
+  background-color:#E6E6E6;
+}
